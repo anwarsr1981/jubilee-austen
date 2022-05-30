@@ -1,0 +1,181 @@
+/***** BASE STYLES *****/
+{font-family: 'Source Sans Pro', sans-serif;
+color: #2b2b2b;}
+
+/***** GRID STYLE *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+	width: 600px;
+	margin: 0 auto;
+	overflow: auto;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	margin: 0 auto;
+	overflow: auto;
+	float: left;
+}
+
+/***** Header Style *****/
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 { 
+	color: #bbc085;
+	font-family: lora, serif;
+	font-weight: normal;
+    padding: 65px 0 65px 25px;
+}
+
+header h2 {
+    width: 975px;
+    clear: left;
+    font-family: lora;
+    font-size: 72px;
+    line-height: 80px;
+    color: #2b2b2b;
+    padding: 20px 0 20px 25px;
+    text-transform: capitalize;
+}
+header h2 span {
+    color: #9b9b9b;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+
+
+/***** About Style *****/
+#about .full-width {
+	padding: 115px 0;
+}
+
+#about h2 {
+	font-family: lora;
+	font-size: 36px;
+	padding-left:37px ;
+}
+
+#about p {
+	font-size: 21px;
+	color: #7f7f7f;
+	line-height: 40px;
+	padding-left: 37px;
+	padding-right:37px ;
+}
+
+/***** Work Style *****/
+#work .full-width {
+    padding: 115px 0;
+    background: 1200px;
+	background: #f9ceb7;
+}
+ 
+#work img {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+    padding-bottom: 30px;
+}
+
+#work h3 {
+	color: #2b2b2b;
+    font-size: 24px;
+    line-height: 32px;
+    width: 215px;
+    text-align: center;
+    margin: 0 auto;
+}
+ 
+#work p {
+	color: #2b2b2b;
+    font-family: lora;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+/***** Contact Style *****/
+ #contact .full-width {
+    padding: 110px 0;
+    background: 1200px;
+    background-color: #ebebeb;
+}
+
+
+
+/********************* 👇couldn't get padding into image **********************/
+
+#contact img #contact-img {
+    margin-left: 25px;
+    border: 12px solid #black;
+}
+/********************* 👆couldn't get padding into image **********************/
+
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+    font-family: lora, serif;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+#contact #email-header{
+    font-size: 32px;
+    font-weight: normal;
+    line-height:44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
